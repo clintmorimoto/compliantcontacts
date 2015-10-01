@@ -6,16 +6,16 @@ Implements a simple contact list.
 
 Provide the following scripts in your html file:
 
-'''
+```
 <script src="//philipmjohnson.github.io/ics314f15/morea/underscore/underscore-min.js"></script>
 <script src="contacts.js"></script>
-'''
+```
 
 # Usage
 
 Here are example calls to create a contact list:
 
-'''
+```
 <script>
   // Create a contact list.
   var contactList = new ContactList();
@@ -43,8 +43,7 @@ Here are example calls to create a contact list:
   contactList.deleteContact("Philip", "Johnson"); //  delete philip's Contact instance.
   console.log(contactList.listContacts()); //  string containing contacts in sorted order by last name.
 </script>
-
-'''
+```
 
 Consult the contacts.js file for more details on these functions.
 
